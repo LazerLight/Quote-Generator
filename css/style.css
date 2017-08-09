@@ -1,0 +1,57 @@
+body {
+  transition: background 1s;
+}
+
+#frame {
+  background: white;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  position: relative;
+  border-radius: 8px;
+  overflow: auto;
+  ;
+}
+
+
+#newQuote {
+  position: relative;
+  width: 100px;
+  height: 35px;
+  float: right;
+  margin-right: 8%;
+  
+}
+
+#twitter {
+  position: relative;
+  width: 40px;
+  height: 35px;
+  float: left;
+  margin-left: 8%;
+}
+
+button {
+  position: relative;
+  margin-bottom: 25px;
+  border: none;
+  background-color: none;
+  color: white;
+  border-radius: 8px;
+  transition: background 1s;
+}
+
+h1 {
+  padding: 5% 10% 0% 10%;
+  transition: all 1s;
+  text-align: center;
+  font-family: Marck Script;
+}
+
+h2 {
+  text-align: right;
+  transition: all 1s;
+  padding-right: 10%;
+  font-family: Play;
+}
